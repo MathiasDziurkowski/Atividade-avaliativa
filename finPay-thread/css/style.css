@@ -350,7 +350,7 @@
     flex-direction: row;
     gap: 20px;
     justify-content: end;
-    align-self: flex-end;
+    align-self: end;
 }
 
 .botao-esquerda
@@ -560,6 +560,8 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-content: center;
+        justify-content: center;
     }
 
     .titulo
@@ -570,17 +572,17 @@
     .botao-capa
     {
         width: 100%;
+        padding: 0px;
+        gap: 10px;
     }
     .texto-capa
     {
         display: flex;
-        width: 80%;
-        height: 80%;
-        align-content: center;
-        align-items: center;
+        width: 90%;
         justify-content: center;
         flex-direction: column;
         padding: 10px;
+        gap: 20px;
     }
 
     .imagem-capa
@@ -588,12 +590,18 @@
         display: flex;
         align-self: center;
         width: 80%;
+        padding: 0px;
         flex-direction: column;
     }
 
     .nota-destaque
     {
         font-size: 30px;
+    }
+    
+    .apresentacao-corpo
+    {
+        width: 95%;
     }
 
     .empresas
@@ -647,11 +655,38 @@
     {
         display: flex;
         justify-content: center;
-        width: 90%;
-        transform: scale(0.4);
+        width: auto;    
         align-items: center;
         padding: 10px;
+        gap: 0px;
     }
+
+    .business-content
+    {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .fig-1-content
+    {
+        transform: scale(0.3);
+        padding: 0px;
+        padding-left: 300px;
+    }
+
+    .titulo-business
+    {
+        font-size: 30px;
+    }
+
+    .fig-business
+    {
+        width: 90%;
+        transform: scale(0.3);
+        padding: 0px;
+    }
+
+
 
     .about-titulo
     {
@@ -663,9 +698,11 @@
     {
         display: flex;
         flex-direction: column;
-        width: 90%;
-        justify-content: left;
-        padding: 10px;
+        width: auto;
+        justify-content: center;
+        align-items: flex-start; 
+        padding: 30px;
+        gap: 5px;
         
     }
 
@@ -673,7 +710,9 @@
     {
         display: flex;
         padding: 10px;
-        width: 90%; 
+        gap: 0px;
+        width: auto; 
+        height: auto;
     }
 
     .opniao-texto
@@ -687,24 +726,36 @@
     .about-botao
     {
         display: flex;
-        padding: 10px;
+        padding: 0px;
     }
 
     .botao-esquerda
     {
-        border: 10px solid white;
+        border: 5px solid white;
     }
 
     .botao-direita
     {
-        border: 10px solid white;
+        border: 5px solid white;
+    }
+
+    .botao-esquerda:hover
+    {
+        border: 5px solid black;
+        color: white;
+    }
+
+    .botao-direita:hover
+    {
+        border: 5px solid black;
+        color: white;
     }
 
     .texto-div
     {
         font-size: 10px;
         width: 90%;
-        padding: 10px;
+        padding: 0px;
     }
     
 
@@ -716,13 +767,18 @@
     .ready-section
     {
         display: flex;
-        padding: 50px;
+        width: auto;
+        padding: 10px;
     }
 
     .ready-box
     {
         display: flex;
-        padding: 10px;
+        padding: 0px 10px;
+        height: auto;
+        gap: 0px;
+        flex-direction: column;
+        width: auto;
     }
 
     .ready-titulo
@@ -734,11 +790,20 @@
     .iphone-img
     {
         transform: scale(1);
+        width: auto;
+        justify-content: baseline;
+        align-self: center;
+        flex-basis: auto;
+        margin-top: 100px;
     }
 
     .ready-texto
     {
         font-size: 12px;
+        width: auto;
+        align-items: center;
+        height: auto;
+        margin-top: 20px;
     }
 
 
@@ -747,10 +812,44 @@
         font-size: 20px;
     }
 
+    .started-div
+    {
+        width: 90%;
+    }
+
+    .started-section
+    {
+        width: auto;
+        padding: 50px;
+    }
     .started-titulo
     {
         font-size: 40px;
+        width: 90%;
+        height: auto;
     }
 
+    .fundo-titulo
+    {
+        width: 90%;
+        height: auto;
+    }
+
+    .open-section
+    {
+        width: auto;
+    }
+
+    .rodape
+    {
+        width: auto;
+        padding: 50px;
+    }
+
+    .open-div
+    {
+        width: auto;
+        padding: 40px;
+    }
     
 }
