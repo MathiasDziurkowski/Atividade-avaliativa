@@ -14,5 +14,4 @@ Site sobre uma empresa especializada em pagamentos bancários, aonde há vários
 # Site local 
 Para abrir o site localmente é necessário
 - Extrair a pasta main
-- Abrir a partir da pasta finPay-thread
 - Divirta-se com o site!
